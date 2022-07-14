@@ -1,6 +1,6 @@
 # GaitFeatures
 Gait segmentation &amp; event detection based on raw inertial sensor data; paper and C++ feature extraction.
-The gait features were good and clean enough (especially for thigh and shank signals) to directly spot online gait events using simple heuristics. In the paper, however, a simple SVM classifier was trained on top, which further increased accuracy and timeliness. 
+Our gait features were clean enough (especially for thigh and shank signals) to directly spot online gait events using some simple heuristics. In the paper, however, a SVM classifier was trained on top of the features, which further increased accuracy and timeliness. 
 
 ## Paper
 https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
