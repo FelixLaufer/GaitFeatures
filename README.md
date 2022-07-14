@@ -1,13 +1,14 @@
 # GaitFeatures
-Gait segmentation &amp; event detection based on raw inertial sensor data.
+Gait segmentation &amp; event detection based on raw inertial sensor data; paper and C++ feature extraction.
+The gait features were good and clean enough (especially for thigh and shank signals) to directly spot online gait events using simple heuristics. In the paper, however, a simple SVM classifier was trained on top, which further increased accuracy and timeliness. 
 
 ## Paper
 https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
 
-## Screencast video presented at the virtual IFAC 2020 conference Berlin
+### Screencast video presented at the virtual IFAC 2020 conference Berlin
 https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
 
-## Abstract
+### Abstract
 In this paper, we present a method to obtain explicit, expressive and interpretable
 gait feature signals from an inertial sensor, mounted on any segment of the lower limbs.
 The proposed method is invariant to the mounting orientation of the sensor, works without
@@ -27,7 +28,27 @@ feature selection and ranking, we finally evaluate different choices of feature 
 linear support vector machine classifier in an online fashion and obtain superior segmentation
 results with our feature signals.
 
-## Keywords
+### Keywords
 gait segmentation, bio-signals analysis and interpretation, human body motion
 capture, information and sensor fusion, motion estimation, parameter and state estimation,
 inertial sensors, signal processing, machine learning
+
+## Code
+Implementation of an online gait feature extractor
+### Usage
+```cpp
+std::vector<IMUData> data...; // some IMU data (accelerometer and gyroscope measurements)
+GaitFeatureExtractor extractor;
+
+for (size_t t = 0; t < data.size(); ++t)
+{
+  if (!extractor.calibrated())
+    std::cout << "Warning: extractor is not yet calibrated" << std::endl;
+  
+  Vector3 feature = extractor.process(data[t]);
+}
+
+```
+
+### Requires
+- Eigen3
