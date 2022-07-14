@@ -1,0 +1,33 @@
+# GaitFeatures
+Gait segmentation &amp; event detection based on raw inertial sensor data.
+
+## Paper
+https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
+
+## Screencast video presented at the virtual IFAC 2020 conference Berlin
+https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
+
+## Abstract
+In this paper, we present a method to obtain explicit, expressive and interpretable
+gait feature signals from an inertial sensor, mounted on any segment of the lower limbs.
+The proposed method is invariant to the mounting orientation of the sensor, works without
+magnetometer information, requires no prior knowledge and can be used in real-time scenarios.
+Moreover, the constructed signals are robust for a wide variety of changing walking speeds
+and directions. We investigate the informational content of our three feature signals lying in
+the human sagittal plane with respect to the gait phase segmentation problem and compare
+them to other commonly used signals, such as the sagittal angular velocity and the norms of
+accelerations and angular velocities. To this end, we make use of the filter-based maximum
+relevance minimum redundancy algorithm, which is a classifier-independent feature selection
+method. For validating our approach, we consider gait data of twelve healthy subjects walking
+straight and in curves at self-chosen speeds with inertial sensors attached to either the thigh,
+shank or foot. Additionally, pressure measuring insoles are used to obtain ground truth toe-off
+and heel-strike gait events for reference. With those events as the gait phase transitions, the
+event detection is cast into a classification problem. To support the theoretical findings of the
+feature selection and ranking, we finally evaluate different choices of feature sets with a simple
+linear support vector machine classifier in an online fashion and obtain superior segmentation
+results with our feature signals.
+
+## Keywords
+gait segmentation, bio-signals analysis and interpretation, human body motion
+capture, information and sensor fusion, motion estimation, parameter and state estimation,
+inertial sensors, signal processing, machine learning
