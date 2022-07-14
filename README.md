@@ -37,7 +37,7 @@ inertial sensors, signal processing, machine learning
 Implementation of an online gait feature extractor
 ### Usage
 ```cpp
-std::vector<IMUData> data...; // some IMU data (accelerometer and gyroscope measurements)
+std::vector<IMUData> data = ... ; // some IMU data (accelerometer and gyroscope measurements)
 GaitFeatureExtractor extractor;
 
 for (size_t t = 0; t < data.size(); ++t)
