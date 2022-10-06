@@ -4,13 +4,8 @@ Our gait features were clean enough (especially for thigh and shank signals) to 
 
 ## Screencast presented at the IFAC 2020 conference Berlin
 
-[![Screencast Video (15 minutes)](https://seafile.rlp.net/f/379b5bbccbe849d58a5b/?dl=1)](https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/?dl=1)
-
-
-
+[![Screencast Video (15 minutes)](https://seafile.rlp.net/f/379b5bbccbe849d58a5b/?dl=1)](https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/)
 https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
-
-
 
 ## Paper
 https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
