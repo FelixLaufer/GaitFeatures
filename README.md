@@ -1,6 +1,7 @@
 # Expressive Gait Features using Lower Limb Inertial Sensor Data
 Gait segmentation &amp; event detection based on raw inertial sensor data; paper and C++ feature extraction.
 In this paper we trained a simple SVM classifier on top of the engineered features for detecting heel-strike (initial contact) and toe-off (terminal contact) gait events yielding a high accuracy and timeliness w.r.t. ground-truth data obtained from pressure insoles.
+However, the feature signals also proved to be good enough to reliably detect gait events using only a rule-based / heuristical state machine.
 
 ## Screencast presented at the IFAC 2020 conference Berlin
 
