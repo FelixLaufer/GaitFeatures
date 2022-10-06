@@ -1,12 +1,12 @@
-# GaitFeatures
+# On Expressive Features for Gait Analysis using Lower Limb Inertial Sensor Data
 Gait segmentation &amp; event detection based on raw inertial sensor data; paper and C++ feature extraction.
 Our gait features were clean enough (especially for thigh and shank signals) to directly spot online gait events using some simple heuristics. In the paper, however, a SVM classifier was trained on top of the features, which further increased accuracy and timeliness. 
 
+## Screencast presented at the IFAC 2020 conference Berlin
+https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
+
 ## Paper
 https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
-
-### Screencast video presented at the virtual IFAC 2020 conference Berlin
-https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
 
 ### Abstract
 In this paper, we present a method to obtain explicit, expressive and interpretable
