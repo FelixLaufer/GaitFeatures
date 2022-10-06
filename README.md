@@ -9,7 +9,7 @@ However, the feature signals also proved to be good enough to reliably detect ga
 https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
 
 ## Paper
-Laufer, Felix & Lorenz, Michael & Taetz, Bertram & Bleser, Gabriele. (2020). On Expressive Features for Gait Analysis using Lower Limb Inertial Sensor Data.
+Laufer, F.; Lorenz, M.; Taetz, B.; Bleser, G. (2020). On Expressive Features for Gait Analysis using Lower Limb Inertial Sensor Data.
 https://www.researchgate.net/publication/344807136_On_Expressive_Features_for_Gait_Analysis_using_Lower_Limb_Inertial_Sensor_Data
 
 ### Abstract
