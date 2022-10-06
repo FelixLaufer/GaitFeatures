@@ -3,8 +3,12 @@ Gait segmentation &amp; event detection based on raw inertial sensor data; paper
 Our gait features were clean enough (especially for thigh and shank signals) to directly spot online gait events using some simple heuristics. In the paper, however, a SVM classifier was trained on top of the features, which further increased accuracy and timeliness. 
 
 ## Screencast presented at the IFAC 2020 conference Berlin
+
+[![Screencast Video (15 minutes)](https://seafile.rlp.net/f/379b5bbccbe849d58a5b/?dl=1)](https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/?dl=1)
+
+
+
 https://seafile.rlp.net/f/b93cc6c354cf4733ac6a/
-[![Screencast Video (15 minutes)]](https://seafile.rlp.net/seafhttp/files/a5522836-7491-4d33-8fcc-93bdecf955a2/Screencast.mp4)
 
 
 
